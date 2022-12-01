@@ -8,3 +8,11 @@ export const fetchInput = async (day: number): Promise<string> => {
   });
   return await response.text();
 }
+
+export const printDay = (day: number) => {
+  console.log(`<== Day ${day} =======================================>`);
+}
+
+export const printLine = () => {
+  console.log(`<================================================>`);
+}

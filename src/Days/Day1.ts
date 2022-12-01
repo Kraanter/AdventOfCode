@@ -1,6 +1,6 @@
-import { fetchInput } from "./Util";
+import { fetchInput, printDay, printLine } from "../Util";
 
-const Main = async () => {
+export async function Main() {
   // Get the input for the day one puzzle
   const input = await fetchInput(1);
 
@@ -20,8 +20,11 @@ const Main = async () => {
   // Sort the array from big to small
   totalArr.sort((a, b) => b - a);
 
+  printDay(1);
   console.log("Highest total: " + totalArr[0]);
   console.log("Top 3 combined: " + (totalArr[0] + totalArr[1] + totalArr[2]));
+  printLine();
 }
-
-Main();
+// only run if this file is called directly
+if (require.main === module)
+  Main();
