@@ -4,7 +4,7 @@ const args = process.argv;
 // remove the ability to throw errors or warnigns
 console.warn = console.error = () => { };
 
-const daysDone = [1];
+const daysDone = [1, 2];
 
 args.splice(0, 2);
 

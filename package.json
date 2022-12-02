@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "day": "npx ts-node src/App.ts",
-    "day1": "npx ts-node src/Days/Day1.ts"
+    "day1": "npx ts-node src/Days/Day1.ts",
+    "day2": "npx ts-node src/Days/Day2.ts"
   },
   "devDependencies": {
     "@types/node": "^18.11.10",
