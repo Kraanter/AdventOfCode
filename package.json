@@ -9,7 +9,8 @@
     "day2": "npx ts-node src/Days/Day2.ts",
     "day3": "npx ts-node src/Days/Day3.ts",
     "day4": "npx ts-node src/Days/Day4.ts",
-    "day5": "npx ts-node src/Days/Day5.ts"
+    "day5": "npx ts-node src/Days/Day5.ts",
+    "day6": "npx ts-node src/Days/Day6.ts"
   },
   "devDependencies": {
     "@types/node": "^18.11.10",
