@@ -9,7 +9,7 @@ interface Range {
 type Line = Range[];
 
 export async function Main() {
-  // Get the input for the day two puzzle
+  // Get the input for the day four puzzle
   const input = await fetchInput(4);
 
   const score = input.split("\n").reduce((score, pair, i) => {
@@ -29,7 +29,7 @@ export async function Main() {
     return score;
   }, [0, 1]);
 
-  printDay(3);
+  printDay(4);
   console.log("Total score part one: " + score[0]);
   console.log("Total Score part two: " + score[1]);
   printLine();

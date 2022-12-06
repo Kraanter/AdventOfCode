@@ -1,7 +1,7 @@
 import { fetchInput, printDay, printLine } from "../Util";
 
 export async function Main() {
-  // Get the input for the day two puzzle
+  // Get the input for the day three puzzle
   const input = await fetchInput(3);
 
   const prioArray = input.split("\n").reduce((prioArray, sack, line) => {
