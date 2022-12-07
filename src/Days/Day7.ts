@@ -84,7 +84,6 @@ function getAwnser2(fileSystem: FileSystem, totalFileSystemSize: number) {
       const currentleftOverSpace = (totalSpace - totalFileSystemSize) + value;
       const smallestLeftOverSpace = (totalSpace - totalFileSystemSize) + smallest.size
       if (key === "size") {
-        console.log(key, value, currentleftOverSpace, smallestLeftOverSpace, totalFileSystemSize, smallest)
         if (currentleftOverSpace <= smallestLeftOverSpace && currentleftOverSpace >= requiredFreeSpace)
           smallest = { key, size: value };
       }
